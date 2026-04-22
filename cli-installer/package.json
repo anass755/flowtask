@@ -1,0 +1,38 @@
+{
+  "name": "flowtask-app",
+  "version": "1.0.0",
+  "description": "FlowTask Auto-Installer by Anas - One-command installation for FlowTask with Docker",
+  "main": "index.js",
+  "bin": {
+    "flowtask-app": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flowtask",
+    "task-management",
+    "docker",
+    "installer",
+    "laravel",
+    "auto-install"
+  ],
+  "author": "Anas",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.5",
+    "shelljs": "^0.8.5",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anass755/flowtask.git"
+  },
+  "homepage": "https://github.com/anass755/flowtask#readme"
+}

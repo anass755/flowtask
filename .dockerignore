@@ -1,0 +1,11 @@
+vendor
+node_modules
+.env
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+nginx
+php
+README.md
