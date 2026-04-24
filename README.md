@@ -15,7 +15,12 @@ A modern task management system built with Laravel, featuring role-based access 
 
 ### One-Command Installation
 
-**Option 1: Global Command (Recommended):**
+**Option 1: Quick Install (Recommended - One Command):**
+```bash
+curl -sSL https://raw.githubusercontent.com/anass755/flowtask/main/quick-install.sh | bash
+```
+
+**Option 2: Global Command:**
 ```bash
 # Setup global command first
 curl -sSL https://raw.githubusercontent.com/anass755/flowtask/main/setup-global.sh | bash
@@ -24,12 +29,12 @@ curl -sSL https://raw.githubusercontent.com/anass755/flowtask/main/setup-global.
 flowtask install --anas
 ```
 
-**Option 2: Shell Script (Linux/Mac):**
+**Option 3: Shell Script (Linux/Mac):**
 ```bash
 curl -sSL https://raw.githubusercontent.com/anass755/flowtask/main/install.sh | bash
 ```
 
-**Option 3: NPM Package (Cross-Platform):**
+**Option 4: NPM Package (Cross-Platform):**
 ```bash
 npm install -g flowtask-app
 flowtask-app install
