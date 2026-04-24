@@ -24,6 +24,10 @@ print_info() {
     echo -e "${BLUE}ℹ $1${NC}"
 }
 
+print_warning() {
+    echo -e "${YELLOW}⚠ $1${NC}"
+}
+
 echo -e "${BLUE}========================================${NC}"
 echo -e "${BLUE}  FlowTask Global Command Setup${NC}"
 echo -e "${BLUE}  by Anas${NC}"
